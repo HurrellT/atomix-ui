@@ -6,7 +6,10 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "storybook-generate": "sb-rn-get-stories",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@expo/metro-runtime": "~5.0.4",
@@ -19,8 +22,25 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@gorhom/bottom-sheet": "^5.1.6",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/datetimepicker": "8.3.0",
+    "@react-native-community/slider": "4.5.6",
+    "@storybook/addon-docs": "^9.0.12",
+    "@storybook/addon-ondevice-actions": "^9.0.9",
+    "@storybook/addon-ondevice-controls": "^9.0.9",
+    "@storybook/react-native": "^9.0.9",
+    "@storybook/react-native-web-vite": "^9.0.12",
+    "babel-loader": "^8.4.1",
+    "eslint-plugin-storybook": "^9.0.12",
     "react-native-builder-bob": "^0.40.12",
-    "react-native-monorepo-config": "^0.1.9"
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-monorepo-config": "^0.1.9",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-svg": "15.11.2",
+    "storybook": "^9.0.12",
+    "vite": "^6.3.5"
   },
   "private": true
 }
