@@ -1,6 +1,6 @@
 # react-native-atomix-ui
 
-React Native Atomix UI Component Library
+React Native Atomix UI Component Library. Simple UI component kit focused on low dependencies and performance.
 
 ## Installation
 
@@ -10,15 +10,13 @@ npm install react-native-atomix-ui
 
 ## Usage
 
-
 ```js
-import { multiply } from 'react-native-atomix-ui';
+import { Card, Typography } from 'react-native-atomix-ui';
 
-// ...
-
-const result = await multiply(3, 7);
+<Card>
+  <Typography>Hello, World!</Typography>
+</Card>;
 ```
-
 
 ## Contributing
 
